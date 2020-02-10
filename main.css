@@ -521,10 +521,11 @@ ABOUT
 }
 
 .ui-accordion .ui-accordion-content {
+    height: 100%!important;
     background: var(--mainGrey);
     padding: 20px!important;
     line-height: 1.5;
-    color: var(--mainWhite);
+    color: var(--mainBlack)!important;
     border-radius: 10px;
 }
 
